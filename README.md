@@ -1,5 +1,7 @@
 # Constellation Predictor 🌟
 
+[Deployed Link](https://constellationpredict-production.up.railway.app/)
+
 A comprehensive web application for constellation identification and exploration, featuring AI-powered image recognition, real-time location services, and multilingual chatbot assistance.
 
 ## Features
@@ -257,6 +259,34 @@ Constellation_predictor-main/
 ├── requirements.txt                     # Root-level dependencies
 └── uv.lock                              # UV package lock file
 ```
+### Constellation Detection Model
+
+(Constellation_YOLO)
+
+| Metric | Value |
+|--------|-------|
+| **Architecture** | YOLOv8n |
+| **Classes** | 16 |
+| **mAP@50** | 95.8% |
+| **mAP@50-95** | 59.0% |
+| **Precision** | 90.5% |
+| **Recall** | 95.6% |
+| **Training Epochs** | 60 |
+
+### Detectable Constellations (16)
+
+| # | Constellation | # | Constellation |
+|---|--------------|---|--------------|
+| 1 | Aquila | 9 | Lyra |
+| 2 | Boötes | 10 | Moon |
+| 3 | Canis Major | 11 | Orion |
+| 4 | Canis Minor | 12 | Pleiades |
+| 5 | Cassiopeia | 13 | Sagittarius |
+| 6 | Cygnus | 14 | Scorpius |
+| 7 | Gemini | 15 | Taurus |
+| 8 | Leo | 16 | Ursa Major |
+
+---
 
 ### Key Components Explained
 
